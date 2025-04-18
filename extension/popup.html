@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flickr Downloader</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      width: 200px;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h3>Flickr Image Downloader</h3>
+  <label for="maxSize">Max Size:</label>
+  <input type="number" id="maxSize" name="maxSize" value="4096"><br><br>
+  <button id="downloadButton">Download Image</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
